@@ -1,0 +1,22 @@
+name: deepfqn
+
+channels:
+  - anaconda
+
+dependencies:
+  # CUDA stack
+#  - cudnn==8.2.1
+#  - cudatoolkit==11.3.1
+
+  - pip
+  - pip:
+     - torch
+     - pytorch-gpu
+     - matplotlib
+     - tqdm
+     - transformers
+     - scikit-learn
+     - pydot
+     - wandb
+     - nltk
+     - rouge-score
